@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Question For the Day - LeaF</title>
+        <link rel='stylesheet' href='3rdParty/bootstrap/css/bootstrap.min.css'>
+         <script  src='3rdParty/jquery/jquery-2.1.4.min.js'></script>
+         <script  src='3rdParty/bootstrap/js/popper.min.js'></script>
+        <script  src='3rdParty/bootstrap/js/bootstrap.min.js'></script>
+         <script  src='3rdParty/iscroll-master/build/iscroll.js'></script>
+       <script  src='./leafQuiz.js'></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./screen.css" media="all" />
+    <head>
+    <body>
+        <img class="d-none d-md-block d-print-none" id="logo" src="assets/LeaF.png"> 
+        <h3 id='welcomeContainer'>Welcome !!</h3>
+       <!-- <div class='container-fluid' > -->
+            <section class='rb-content_table flex-container'>
+                <div class='rb-content-pane main_rb-expand-height'>
+                        <p class='headerParagraph'> Please find the question for the Day 
+							<span id='qDate'></span>
+						</p>
+                        <p id='QFD'></p>
+                        <div id='QFDOptions'></div>
+                        <button type="button" id='submitAnswer' class="btn btn-success">Submit</button>
+                        <p id='alreadyAnsweredMsg'> You have already answered today`s question!!</p>
+                        <p id='successMsg'> Your Answer is successfully submitted to the server</p>
+                        <div class='starOfMonthMain'>
+                         <div class='starDiv' id='starIcon'></div>
+                        <div class='headerParagraph starDiv' style='display: inline-block;'>Star of the Month is</div>
+                        <div id='starOfMonthDiv'>
+                            <ol class="list-group" id='starOfMonthList'></ol>
+                        </div>
+                        
+                        </div>
+                </div>
+                <div class='rb-content-pane main_rb-expand-height'>
+                        <p class='headerParagraph'> The correct Answer for the previous Question 
+                            <span id='qPreviousDate'></span>
+						</p>
+                        <p id='prevQFD'></p>
+                        <p id='explanation'></p>
+                        <p  class='headerParagraph'>Correct answer was given by </p>
+                        <div id='answerByDiv'><ol class="list-group" id='prevAnswerBy'></ol></div></br>
+                        <p>Total no. of people participated last Day :
+                            <span  class='headerParagraph' id="totalNoOfParticipants"></span>
+                        </p>
+                       
+                </div> 
+                
+				<!--<div class='rb-content-pane main_rb-expand-height'>
+                      	<p class='intro'> Dear Team, </br></br>
+							LeaF Quiz Team welcomes you to the new automated LeaF Quiz App !!!
+							</br></br>
+							The Question For the Day and the answer for the previous day will be available here.
+							</br></br>
+							Please share your feedback to us!!
+							</br></br>
+							<p>Happy Learning :)</p>
+							</br>
+							<p  style='color : #16aaf3'>Regards,
+							</br>
+							LeaF Team</p>
+						</p>
+						<img class="d-none d-md-block d-print-none" src="assets/LeaF.png">-->
+						
+                </div>
+            </section>
+          <!--  <img class="d-none d-md-block d-print-none" id='tableSeperator' src="assets/tableGraphicLine.png"> 
+          <hr style='color:#fff'> 
+            
+        </div>-->
+    </body>
+</html>

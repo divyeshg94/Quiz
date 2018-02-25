@@ -1,0 +1,212 @@
+
+
+body{
+    background-image: radial-gradient(ellipse farthest-side,rgba(4,82,125,.65),transparent), linear-gradient(170deg,#0A1D2C,#06283C,#05234E), url(../assets/bg-1920x1080_dark.png), linear-gradient(#071019 0,#0e293f 14%,#000000 32%,#081420 45%,#02090f 50%,#00172a 74%,#0d2535 87%,#11334c 100%);
+    background-position: 160% -25%,top,bottom,0;
+    background-size: 80% 40%,100% 60px,auto,auto;
+    background-attachment: scroll,scroll,fixed,fixed;
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ffffff;
+    font: 1.5rem Book Antiqua;
+
+}
+
+#logo{
+    position: absolute;
+    right: 0px;
+    top: 24px;
+}
+
+h3{
+    color : #fff;
+    margin-top:15px;
+}
+
+#submitAnswer{
+    margin-top : 25px;
+    margin-bottom: 25px;
+    padding: 8px !important;
+    font-size: 17px !important;
+    color: #fff;
+    background: linear-gradient(rgb(110, 221, 133) 0%, rgb(32, 140, 39) 100%) !important;
+    border: none !important;
+    width: 20%
+}
+
+#submitAnswer:hover{
+   background: linear-gradient(rgb(32, 140, 39) 0%, rgb(110, 221, 133) 100%) !important;
+}
+
+#tableSeperator{
+    height: 2px;
+    width: 1000px;
+    margin-bottom: 25px;
+}
+#QFDOptions{
+    margin-left : 3%
+}
+.rb-content-pane {
+    margin: 18px 22px 22px;
+    border: 1px solid red;
+    width : 46%;
+    height : 80%;
+    float :left;
+    border: 1px solid rgba(45, 160, 255, 0.4);
+    border-image: none;
+    background-color: rgba(45, 160, 255, 0.13);
+    padding-left: 2%;
+}
+
+.rb-content-pane p:first-child{  
+    margin-top : 5%;
+} 
+
+.badgeOver {
+    overflow: hidden;
+    overflow-y: auto;
+    margin-right: 0px !important;
+    padding-right: 30px;
+}
+
+.btn-success{
+    font-family: Book Antiqua;
+}
+
+.flex-container{
+    margin-top:4%;
+}
+
+input[type='radio'].rb-radio-btn {
+    margin: -1px;
+    padding: 0px;
+    border: 0px currentColor;
+    border-image: none;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0px, 0px, 0px, 0px);
+    
+}
+
+input[type='radio'].rb-radio-btn + label {
+   /* background: url(../assets/radiobutton_dark.png) no-repeat left;*/
+    background: url(../assets/radioButton.png) no-repeat left;
+    padding: 4px 5px 2px 36px;
+    margin-bottom: 3px;
+}
+
+input[type='radio']:checked.rb-radio-btn + label {
+    background: url(../assets/radioButton_selected.png) no-repeat left;
+    color: #fff !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn.disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}
+
+#alreadyAnsweredMsg{
+    color : red;
+    font: 1rem Book Antiqua;
+    display : none;    
+}
+/*
+#prevAnswerBy{
+    border: 1px solid rgba(45, 160, 255, 0.4);
+    max-height: 50%;
+    width: 95%;
+  /*  overflow: auto; */
+/*    padding-left: 30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size : 1.25rem;
+}*/
+
+#answerByDiv{
+    outline:1px solid rgba(45, 160, 255, 0.4);   
+    padding:0 4px;
+    position: relative;
+    width:600px;
+    overflow: hidden;
+    margin:10px 0; 
+    max-width:600px;
+    max-height: 40%;
+}
+
+#starIcon{
+    background: url(../assets/starIcon.png) no-repeat left;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+#starOfMonthMain{
+    display: none;
+}
+
+#starOfMonthDiv{
+    outline:1px solid rgba(45, 160, 255, 0.4);   
+    padding:0 4px;
+    position: relative;
+    width:600px;
+    overflow: hidden;
+    margin:10px 0; 
+    max-width:600px;
+    max-height: 20%;
+}
+
+ol {
+   display:block;
+    padding:0;
+    margin:0
+}
+li {
+    display:block;
+    display: list-item;
+    list-style-position: inside;
+    line-height:20px;
+    font-family:verdana;
+    padding:5px;
+    font-size:.8em
+}
+
+#successMsg{
+    color : #16aaf3;
+    font: 1rem Book Antiqua;
+    display : none;    
+}
+
+#explanation{
+     font: 1rem Book Antiqua;
+}
+
+.headerParagraph{
+    color : #16aaf3;
+}
+
+.answerPrev{
+    color : #00cc00;
+}
+
+.intro{
+	font-size : 1.2rem;
+}
+
+.iScrollIndicator {
+    border: 1px solid #0096ff !important;
+    border-radius: 2px !important;
+    background: #0096ff !important;
+}
+
+.iScrollVerticalScrollbar {
+    z-index: 99999 !important;
+} 

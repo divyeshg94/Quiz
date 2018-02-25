@@ -1,0 +1,192 @@
+[
+        {
+            "questionNumber": "1",
+            "date": "2017-02-25",
+            "question": "Which, in general, is the least required skill of a good tester?",
+            "option1": "Being diplomatic",
+            "option2": "Able to write software",
+            "option3": "Having good attention to detail",
+            "option4": "Able to be relied on",
+            "sessionInfo": "Able to write software"
+        },
+		{
+            "questionNumber": "2",
+            "date": "2017-12-19",
+            "question": "Which of the following is NOT part of configuration management?",
+            "option1": "auditing conformance to ISO 9000",
+            "option2": "status accounting of configuration items",
+            "option3": "identification of test versions",
+            "option4": "controlled library access",
+            "sessionInfo": "auditing conformance to ISO 9000"
+        },
+		{
+            "questionNumber": "3",
+            "date": "2017-12-30",
+			"question": "What is /are the number of operand /operands needed to unary operator logical not(!)?",
+            "option1": "One",
+            "option2": "Two",
+            "option3": "Three",
+            "option4": "Four",
+            "sessionInfo": "One"
+        },
+        {
+            "questionNumber": "4",
+            "date": "2017-12-31",
+            "question": "Code Coverage is used as a measure of what?",
+            "option1": "Defects",
+            "option2": "Trends analysis",
+            "option3": "Test Effectiveness",
+            "option4": "Time Spent Testing",
+            "sessionInfo": "Test Effectiveness",
+            "isLastDay": true
+        },
+        {
+            "questionNumber": "5",
+            "date": "2017-12-22",
+            "question": "Which of the following items would not come under Configuration Management?",
+            "option1": "operating systems",
+            "option2": "test documentation",
+            "option3": "live data",
+            "option4": "user requirement documents",
+            "sessionInfo": "live data"
+        },
+        {
+            "questionNumber": "6",
+            "date": "2017-12-26",
+            "question": "Indicate the noise whose source is in a category different from that",
+            "option1": "Solar noise",
+            "option2": "Cosmic noise",
+            "option3": "Atmospheric noise",
+            "option4": "Galactic noise",
+            "sessionInfo": "Atmospheric noise"
+        },
+        {
+            "questionNumber": "7",
+            "date": "2017-12-27",
+            "question": "What wave is the same day or night?",
+            "option1": "Sky",
+            "option2": "Space",
+            "option3": "Direct",
+            "option4": "ground",
+            "sessionInfo": "ground"
+        },
+        {
+            "questionNumber": "8",
+            "date": "2017-12-28",
+            "question": "Over what areas ducts often form?",
+            "option1": "desert",
+            "option2": "water",
+            "option3": "forest",
+            "option4": "mountain",
+            "sessionInfo": "water"
+        },
+        {
+            "questionNumber": "9",
+            "date": "2017-12-29",
+            "question": "How would you estimate the amount of re-testing likely to be required?",
+            "option1": "Metrics from previous similar projects",
+            "option2": "Discussions with the development team",
+            "option3": "Time allocated for regression testing",
+            "option4": "Metrics from previous similar projects & Discussions with the development team",
+            "sessionInfo": "Metrics from previous similar projects & Discussions with the development team"
+        },
+        {
+            "questionNumber": "10",
+            "date": "2018-01-02",
+            "question": "Which of the followings is correct for a function definition along with storage-class specifier in C language?",
+            "option1": "int fun(auto int arg)",
+            "option2": "int fun(static int arg)",
+            "option3": "int fun(register int arg)",
+            "option4": "int fun(extern int arg)",
+            "option5": "All the above",
+            "sessionInfo": "int fun(register int arg)",
+            "explanation": "As per C standard, The only storage-class specifier that shall occur in a parameter declaration is register."
+        },
+        {
+            "questionNumber": "11",
+            "date": "2018-01-03",
+            "question": "In the context of C data types, which of the followings is correct?",
+            "option1": "'unsigned long long int' is a valid data type.",
+            "option2": "'long long double'' is a valid data type.",
+            "option3": "'unsigned long double' is a valid data type.",
+            "option4": "All the above are valid data types.",
+            "option5": "All the above are invalid data types.",
+            "sessionInfo": "'unsigned long long int' is a valid data type.",
+            "explanation": "In C, “float” is single precision floating type. “double” is double precision floating type. “long double”is often more precise than double precision floating type.  So the maximum floating type is “long double”. There’s nothing called “long long double”. If someone wants to use bigger range than “long double”, we need to define our own data type i.e. user defined data type. Besides, Type Specifiers “signed” and “unsigned” aren’t applicable for floating types (float, double, long double). Basically, floating types are always signed only."
+        },
+        {
+            "questionNumber": "12",
+            "date": "2018-01-04",
+            "question": "Suppose that in a C program snippet, followings statements are used.<br>sizeof(int);<br>sizeof(int*);sizeof(int**);<br>Assuming size of pointer is 4 bytes and size of int is also 4 bytes, pick the most correct answer from the given options.",
+            "option1": "Only sizeof(int); would compile successfully and it would return size as 4.",
+            "option2": "sizeof(int); sizeof(int*); sizeof(int**); would compile successfully and size of each would be same i.e. 4",
+            "option3": "sizeof(int); sizeof(int*); sizeof(int**); would compile successfully but the size of each would be different and would be decided at run time.",
+            "option4": "sizeof(int*); and sizeof(int**); would result in compile error but sizeof(int); would compile and result in size as 4.",
+            "sessionInfo": "sizeof(int); sizeof(int*); sizeof(int**); would compile successfully and size of each would be same i.e. 4",
+            "explanation": "Size of all pointer types is same. And whether it is a ‘pointer to char’ or ‘pointer to int’ or ‘pointer to pointer to int’, the size always remain same."
+        },
+        {
+            "questionNumber": "13",
+            "date": "2018-01-05",
+            "question": "Pick the best statement for the below program snippet:</br>struct {int a[2];} </br>arr[] = {1,2};",
+            "option1": "No compile error and it’ll create array arr of 2 elements. Each of the element of arr contain a struct field of int array of 2 elements. arr[0]. a[0] would be 1 and arr[1].a[0] would be 2.",
+            "option2": "No compile error and it’ll create array arr of 2 elements. Each of the element of arr contain a struct field of int array of 2 elements. arr[0]. a[0] would be 1 and arr[0].a[1] would be 2. The second element arr[1] would be ZERO i.e. arr[1].a[0] and arr[1].a[1] would be 0.",
+            "option3": "No compile error and it’ll create array arr of 1 element. Each of the element of arr contain a struct field of int array of 2 elements. arr[0]. a[0] would be 1 and arr[0].a[1] would be 2.",
+            "sessionInfo": "No compile error and it’ll create array arr of 1 element. Each of the element of arr contain a struct field of int array of 2 elements. arr[0]. a[0] would be 1 and arr[0].a[1] would be 2."
+        },
+        {
+            "questionNumber": "14",
+            "date": "2018-01-08",
+            "question": "Which activity is concerned with identifying the task at the final embedded systems?",
+            "option1": "high-level transformation",
+            "option2": "compilation",
+            "option3": "scheduling",
+            "option4": "task-level concurrency management",
+            "sessionInfo": "task-level concurrency management",
+            "explanation": "There are many design activities associated with the platforms in the embedded system and one such is the task-level concurrency management which helps in identifying the task that needed to be present in the final embedded systems."
+        },
+        {
+            "questionNumber": "15",
+            "date": "2018-01-09",
+            "question": "Which of the following allows the reuse of the software and the hardware components?",
+            "option1": "platform based design",
+            "option2": "memory design",
+            "option3": "peripheral design",
+            "option4": "input design",
+            "sessionInfo": "platform based design",
+            "explanation": "The platform design allows the reuse of the software and the hardware components in order to cope with the increasing complexity in the design of embedded systems."
+        },
+        {
+            "questionNumber": "16",
+            "date": "2018-01-10",
+            "question": "Which of the following cannot carry implicit information?",
+            "option1": "semaphore",
+            "option2": "message passing",
+            "option3": "threads",
+            "option4": "process",
+            "sessionInfo": "semaphore",
+            "explanation": "The kernel in the real-time operating system which deals with the flag but cannot carry implicit information are called semaphores or events."
+        },
+        {
+            "questionNumber": "17",
+            "date": "2018-01-11",
+            "question": "Which of the following is used to switch heavy loads?",
+            "option1": "FET",
+            "option2": "transistor",
+            "option3": "buffer pack",
+            "option4": "darlington pair",
+            "sessionInfo": "FET",
+            "explanation": "The field effect transistor can be used to provide a very high effective gain and hence they can be used to switch heavy loads easily from a logic device. These are also voltage controlled transistors."
+        },
+        {
+            "questionNumber": "18",
+            "date": "2018-01-12",
+            "question": "How is the biasing done in LEDs?",
+            "option1": "forward bias",
+            "option2": "no bias",
+            "option3": "supply voltage",
+            "option4": "reverse bias",
+            "sessionInfo": "reverse bias",
+            "explanation": "The LEDs will light up only when the diode reverse breakdown is achieved. It is usually about 2 to 2.2V."
+        }
+    ]
